@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="columns large-12">
+        <div class="panel project" id="{{project.Name|spacesToDash}}">
+            <div class="row">
+                <div class="columns large-12">
+                    <div class="row">
+                        <div class="columns large 12">
+                            <h2>{{project.Name}}</h2>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-left:1em;">
+                        <div class="columns large-6 projectImage">
+                            <div class="card" ng-class="{flip: flipped}" ng-click="flip()"  ng-mouseleave="flipFront()">
+                                <div class="face front">
+                                    <img ng-src="{{project.ImageURL}}"  alt="{{project.Name}}" title="{{project.Name}}" class="portfolioImg"/>
+                                    <div class="more" >
+                                        <span>&plus;</span>
+                                    </div>
+                                </div>
+                                <div class="face back">
+                                    <h3>Tech used:</h3>
+                                    <ul class="checkmark" >
+                                        <li ng-repeat="tech in project.Technologies">{{tech.Name}}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns large-6">
+                            <h3>Description:</h3>
+                            <p class="indent">{{project.Description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

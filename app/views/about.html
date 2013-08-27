@@ -1,0 +1,20 @@
+<div class="show-for-medium-up" style="position: relative">
+    <img class="img-responsive" src="/images/word_cloud.jpg"/>
+</div>
+<div class="titleBar">
+    <div class="row">
+    <div class="columns large-12">
+        <h2>Making sense of it all</h2>
+    </div>
+    </div>
+</div>
+<div class="row">
+    <div class="columns large-12">
+        <h3>Geek to English translations of:</h3>
+        <ul class="small-block-grid-2 large-block-grid-4 langulageGrid">
+            <li ng-repeat="tech in Technologies">
+                <a ng-href="{{tech.Link}}" target="_blank" class="technologyLink"><img ng-src="{{tech.URL}}" class="technologyImage" alt="{{tech.Title}}" title="{{tech.Title}}"/></a>
+            </li>
+        </ul>
+    </div>
+</div>

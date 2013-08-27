@@ -1,0 +1,480 @@
+[
+    {
+        "Name": "Sony Rewards",
+        "Description": "Involved as a Web Developer to do content updates and page/section creation. Lead developer for upcoming Playstation Account Linking portal.",
+        "Role": "",
+        "ImageURL": "../images/projects/sonyRewards.png",
+        "SiteURL": "http://www.sonyrewards.com/en/home/welcome",
+        "Technologies": [
+            {
+                "Name": "MVC4",
+                "Description": ""
+            },
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Sony Insider Specials",
+        "Description": "Involved as a Web Developer creating cross browser emails for IE7+ desktop devices and mobile.",
+        "Role": "",
+        "ImageURL": "../images/projects/sonyEmail.png",
+        "SiteURL": "",
+        "Technologies": [
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "Silverpop",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Viagra Canada",
+        "Description": "Involved as a Web Developer to do content updates and javascript work for promotions.",
+        "Role": "",
+        "ImageURL": "../images/projects/viagra_ca.png",
+        "SiteURL": "http://www.viagra.ca/en/",
+        "Technologies": [
+            {
+                "Name": "Flash",
+                "Description": ""
+            },
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "CSS",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Centrum Canada",
+        "Description": "Involved as a part of a web development team. Responsible for page creation, content updates and javascript debugging of widgets.",
+        "Role": "",
+        "ImageURL": "../images/projects/centrum_ca.png",
+        "SiteURL": "http://www.centrum.ca/",
+        "Technologies": [
+            {
+                "Name": "Drupal",
+                "Description": ""
+            },
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Start Something With Alesse",
+        "Description": "Involved as a Lead Web Developer. Multi-phased contest site with facebook integration.",
+        "Role": "",
+        "ImageURL": "../images/projects/sswa.png",
+        "SiteURL": "https://startsomethingwithalesse.ca/en/home/",
+        "Technologies": [
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "Mobile",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "Facebook API",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Art Of Yoga Studio",
+        "Description": "Involved as a Web Developer and designer to create a Wordpress portal and provide client training on how to provide updates.",
+        "Role": "",
+        "ImageURL": "../images/projects/ArtOfYogaStudio.png",
+        "SiteURL": "http://www.artofyogastudio.com/",
+        "Technologies": [
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "Wordpress",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Rogers Pulse",
+        "Description": "Involved as a Lead Web Developer on a team to upgrade an existing .net site to web 2.0 standards as well as add many client request features. Rogesr Pulse in an internal Project management Portal.",
+        "Role": "",
+        "ImageURL": "../images/projects/rogers.png",
+        "SiteURL": "",
+        "Technologies": [
+            {
+                "Name": ".net",
+                "Description": ""
+            },
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "Javascript",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Biogen Idec - The Hub",
+        "Description": "Involved as a Lead Web Developer on a team creating a global file management system.",
+        "Role": "",
+        "ImageURL": "../images/projects/biogen_2.png",
+        "SiteURL": "",
+        "Technologies": [
+            {
+                "Name": "MVC4",
+                "Description": ""
+            },
+            {
+                "Name": "AngularJS",
+                "Description": ""
+            },
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "Mobile Responsive",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "AJAX",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "UR-Channel",
+        "Description": "Involved as a Web Developer and designer to create a rich site.",
+        "Role": "",
+        "ImageURL": "../images/projects/ur_channel.png",
+        "SiteURL": "http://ur-channel.com/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": ".net",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "Ajax",
+                "Description": ""
+            },
+            {
+                "Name": "Flash",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Klick - iConnect",
+        "Description": "Involved as a Web Developer to create inovate portal to showcase a new iOS platform/app.",
+        "Role": "",
+        "ImageURL": "../images/projects/iCONNECT.png",
+        "SiteURL": "http://www.klick.com/iConnect/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "Video",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "RSA Canada Mobile App",
+        "Description": "Involved as a Web Developer to create a cross platform (iOS, BlackBerry, Android) mobile app",
+        "Role": "",
+        "ImageURL": "../images/projects/rsa_ca.png",
+        "SiteURL": "https://play.google.com/store/apps/details?id=com.app.rsa.mobile.android2&hl=en",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery Mobile",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "PhoneGap",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Telus - Loopbonding",
+        "Description": "Involved as a Lead Web Developer to create an internal blackberry only application allowing installers to reference a database of devices for troubleshooting purposes.",
+        "Role": "",
+        "ImageURL": "../images/projects/loopbonding.png",
+        "SiteURL": "",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery Mobile",
+                "Description": ""
+            },
+            {
+                "Name": "AngularJS",
+                "Description": ""
+            },
+            {
+                "Name": "PhoneGap",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Amitiza.com - Desktop",
+        "Description": "Involved as a Web Developer to process content updates and page creation for client.",
+        "Role": "",
+        "ImageURL": "../images/projects/amitiza_desktop.png",
+        "SiteURL": "http://www.amitiza.com/",
+        "Technologies": [
+            {
+                "Name": "HTML",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS",
+                "Description": ""
+            },
+            {
+                "Name": ".net",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Amitiza.com - Mobile",
+        "Description": "Involved as a Lead Web Developer to create a mobile responsive site.",
+        "Role": "",
+        "ImageURL": "../images/projects/amitiza_mobile.jpg",
+        "SiteURL": "http://www.amitiza.com/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": ".net",
+                "Description": ""
+            },
+            {
+                "Name": "FoundationJS",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Turn To Help",
+        "Description": "Involved as a Web Developer to create a rich Cleo Award Winning HTML5 website.",
+        "Role": "",
+        "ImageURL": "../images/projects/turn_to_help.png",
+        "SiteURL": "http://turntohelp.com/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": ".net",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "My Multiple Myeloma",
+        "Description": "Involved as a Web Developer in creation and content update of a HTML5 rich Wordpress site.",
+        "Role": "",
+        "ImageURL": "../images/projects/mmm.png",
+        "SiteURL": "http://mymultiplemyeloma.com/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "Wordpress",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "VELCADE",
+        "Description": "Involved as a Web Developer processing content updates and new page creation.",
+        "Role": "",
+        "ImageURL": "../images/projects/VELCADE.png",
+        "SiteURL": "http://www.velcade.com/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "Wordpress",
+                "Description": ""
+            }
+        ]
+    },
+    {
+        "Name": "Acorda Synapse",
+        "Description": "Involved in a large team as a Web Developer in the creation of an Nielsen Norman Group award winning corporate intranet.",
+        "Role": "",
+        "ImageURL": "../images/projects/synapse.png",
+        "SiteURL": "http://www.nngroup.com/reports/intranet-design-annual/",
+        "Technologies": [
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": ".net",
+                "Description": ""
+            },
+            {
+                "Name": "AJAX",
+                "Description": ""
+            }
+        ]
+    }
+]

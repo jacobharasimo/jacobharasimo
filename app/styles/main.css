@@ -1,0 +1,383 @@
+/**********************************************************************************************
+* Card Flip Container                                                                         *
+**********************************************************************************************/
+.card {
+    height: 281px;
+    position: relative;
+    font-size: .8em;
+    -webkit-perspective: 600;
+    -moz-perspective: 600;
+    perspective: 600;
+}
+
+.card .face.front {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    background: white;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    z-index: 801;
+    transition: all .4s ease-in-out;
+}
+
+.card .face.back {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 800;
+    background: white;
+    height: 100%;
+    padding: 1em;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.card.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -moz-box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.card.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
+/**********************************************************************************************
+* Angular animate styles                                                                      *
+**********************************************************************************************/
+#ng-view {
+    position: relative;
+}
+
+.slide-animation.ng-enter, .slide-animation.ng-leave {
+    -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: 1000px;
+}
+
+.slide-animation.ng-enter {
+    opacity: 0;
+    left: 100px;
+}
+
+.slide-animation.ng-enter.ng-enter-active {
+    left: 0;
+    opacity: 1;
+}
+
+.slide-animation.ng-leave {
+    left: 0;
+    opacity: 1;
+}
+
+.slide-animation.ng-leave.ng-leave-active {
+    left: -100px;
+    opacity: 0;
+}
+
+/**********************************************************************************************
+* Contact Us Image Animation                                                                  *
+**********************************************************************************************/
+.animatedImageContainer {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.animatedImageContainer .imageGroup {
+    position: relative;
+}
+
+.animatedImageContainer img.animatedImage {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.animatedImageContainer img.animatedImage.one {
+    animation: fadeIn 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    -webkit-animation: fadeIn 1s; /* Safari and Chrome */
+    -webkit-animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+}
+
+.animatedImageContainer img.animatedImage.two {
+    animation: fadeIn 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    -webkit-animation: fadeIn 1s; /* Safari and Chrome */
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+}
+
+.animatedImageContainer img.animatedImage.three {
+    animation: fadeIn 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    -webkit-animation: fadeIn 1s; /* Safari and Chrome */
+    -webkit-animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+}
+
+.animatedImageContainer img.animatedImage.four {
+    animation: fadeIn 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    -webkit-animation: fadeIn 1s; /* Safari and Chrome */
+    -webkit-animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+}
+
+.animatedImageContainer img.animatedImage.five {
+    animation: fadeIn 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    -webkit-animation: fadeIn 1s; /* Safari and Chrome */
+    -webkit-animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn /* Safari and Chrome */
+{
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+/**********************************************************************************************
+* Styles for the page skew                                                                    *
+**********************************************************************************************/
+body {
+    padding-top: 0;
+    background-color: black;
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    -webkit-perspective-origin-x: 50%;
+    perspective-origin-x: 50%;
+    -webkit-perspective-origin-y: 0px;
+    perspective-origin-y: 0px;
+    overflow: hidden;
+}
+
+#page {
+    background: white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 999;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#page.skew {
+    -webkit-transform: translateY(50px) rotateX(-15deg);
+    -moz-transform: translateY(50px) rotateX(-15deg);
+    -ms-transform: translateY(50px) rotateX(-15deg);
+    -webkit-transform-origin: 50% 0px;
+    -moz-transform-origin: 50% 0px;
+    -ms-transform-origin: 50% 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transform: translateY(50px) rotateX(-15deg);
+    transform-origin: 50% 0px;
+    visibility: visible;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+/**********************************************************************************************
+* Site Styles                                                                                 *
+**********************************************************************************************/
+.top-bar {
+    margin-bottom: 0;
+}
+
+.headerTitle {
+    text-transform: uppercase;
+    top: 45%;
+    color: white;
+    margin-top: -1em;
+    position: relative;
+    margin-bottom: 0;
+
+}
+
+.headerTitle.GreyBG {
+    text-shadow: -3px -3px 5px rgb(25, 28, 33), 3px 3px 5px rgb(85, 87, 93);
+}
+
+.headerTitle.blue {
+    text-shadow: 2px 2px 4px black;
+}
+
+.headerTextConatiner {
+    position: absolute;
+    height: 100%;
+    width: 768px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img.technologyImage {
+    -webkit-transition: all .2s ease-in-out;
+    width: auto;
+    height: auto;
+    max-height: 50px;
+}
+
+.technologyLink {
+    display: block;
+    text-align: center
+}
+
+.langulageGrid li {
+    padding: 20px;
+}
+
+.technologyLink:hover .technologyImage {
+    -webkit-transform: scale(1.2);
+    cursor: pointer;
+}
+
+.more {
+    background-color: #2CA6CB;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -42px 0 0 -42px;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 3em;
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+.projectImage:hover {
+    cursor: pointer;
+}
+
+.projectImage:hover .more {
+    zoom: 1;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
+.more span {
+    color:white;
+    height: 84px;
+    width: 84px;
+    line-height: 84px;
+    text-align: center;
+    display: block
+}
+
+ul.checkmark {
+    list-style-image: url(../images/tick.png);
+    margin-left: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.panel.project {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, .5)
+}
+
+.panel.project:last-child {
+    margin-bottom: 1em;
+}
+
+.portfolioImg {
+    max-height: 280px
+}
+
+h1.large {
+    font-size: 5em;
+}
+
+h2 {
+    color: #358AD3;
+    margin: 0;
+}
+.titleBar h2{text-shadow: 2px 2px 3px rgba(0,0,0,.75);}
+
+.titleBar {
+    background: #F2F2F2;
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    margin-bottom: 2em;
+}
